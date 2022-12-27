@@ -21,6 +21,15 @@ module.exports = {
       symbol: {
         type: Sequelize.STRING,
       },
+      description: {
+        type: Sequelize.TEXT,
+      },
+      attribute: {
+        type: Sequelize.STRING,
+      },
+      wolf: {
+        type: Sequelize.STRING,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

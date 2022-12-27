@@ -17,6 +17,9 @@ module.exports = (sequelize, DataTypes) => {
       founder: DataTypes.STRING,
       members: DataTypes.STRING,
       symbol: DataTypes.STRING,
+      description: DataTypes.TEXT,
+      attribute: DataTypes.STRING,
+      wolf: DataTypes.STRING,
     },
     {
       sequelize,
